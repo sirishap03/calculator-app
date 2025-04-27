@@ -1,2 +1,10 @@
-# Ignore Chrome User Data
+# Ignore all local app data
+*.log
+*.ldb
+*.bak
 AppData/
+node_modules/
+.env
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
